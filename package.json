@@ -1,0 +1,39 @@
+{
+  "name": "@isumix/react-suspendable",
+  "version": "1.0.0",
+  "description": "Integrates asynchronous code (Promise) within React's Suspense and Error Boundaries",
+  "keywords": [
+    "react",
+    "async",
+    "asynchronous",
+    "promise",
+    "suspense",
+    "suspendable",
+    "error",
+    "boundary",
+    "exception",
+    "typescript"
+  ],
+  "license": "ISC",
+  "author": "Igor Sukharev <imixaly4@gmail.com>",
+  "homepage": "https://github.com/isumix/react-suspendable#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isumix/react-suspendable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isumix/react-suspendable/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
