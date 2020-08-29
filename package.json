@@ -1,9 +1,10 @@
 {
   "name": "@isumix/react-suspendable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Integrates asynchronous code (Promise) within React's Suspense and Error Boundaries",
   "keywords": [
     "react",
+    "native",
     "async",
     "asynchronous",
     "promise",
